@@ -33,3 +33,5 @@ RUN Rscript -e "install.packages('pak', repos = 'https://r-lib.github.io/p/pak/d
 # Optional- Fixing Permissions
 RUN chown -R rstudio:rstudio /home/rstudio
 RUN chmod -R 755 /home/rstudio
+
+#github actions token: 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
