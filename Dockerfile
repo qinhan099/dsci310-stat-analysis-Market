@@ -5,7 +5,7 @@ FROM rocker/rstudio:4.4.2
 WORKDIR /home/rstudio
 
 # 3. Install system-wise dependencies to Ubuntu for fast-build && error avoiding; not R-level pacakge.
-RUN apt-get update && apt-get install -yes \
+RUN apt-get update && apt-get install -y \
 zlib1g-dev \
 libcurl4-openssl-dev \
 libssl-dev \
