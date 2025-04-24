@@ -28,7 +28,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: yourdockerhubuser/your-r-image-name
+          images: qinhan099/playMarketR
           tags: |
             type=raw,value={{sha}},enable=${{ github.ref_type != 'tag' }}
             type=raw,value=latest
